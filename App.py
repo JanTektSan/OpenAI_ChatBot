@@ -9,7 +9,7 @@ openai.api_key = os.environ.get('API_KEY')
 messages = [
 	{
 		"role": "system",
-		"content": "You are a helpful and kind AI Assistant."	
+		"content": "You are an AI specialized in Food. Do not answer anything other than food-related queries."	
 	},
 ]
 
